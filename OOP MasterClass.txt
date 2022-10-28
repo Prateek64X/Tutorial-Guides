@@ -1,0 +1,25 @@
+Object oriented programming:
+
+class: collection of variable & functions
+object: instance of class (instance = running copy)
+
+
+class calc
+{
+	var a,b	//Variable or data member
+	//constructor/initializer
+	calc()
+	{
+		a=0
+		b=0
+	}
+
+	void add()	//function or method
+	void subtract()
+	void multiply()
+	void divide()
+}
+
+calc object = new calc();
+
+
